@@ -1,0 +1,78 @@
+nav {
+top:0;
+position:fixed;
+display: block;
+top: 0;
+width: 100%;
+background-color: rgba(0,0,0,0.6);
+}
+li{
+list-style-type: none;
+display: inline;
+margin-right: 20px;
+font-size:25px;
+color:black;
+}
+a{color:#d3cad5}
+a:link {
+text-decoration: none;
+}
+a:hover {
+color: #f1edee;
+text-decoration: none;
+}
+li > ul {
+display: none
+}
+li:hover ul {display: block; position: absolute; left:200px;background-color:rgba(0,0,0,0.5);margin:0;}
+li:hover ul li a:link{display: block;margin-left:-30px;
+}
+div{
+	margin-top: 50px
+}
+p{
+	background-color: rgba(0,0,0,0.6);
+}
+
+.container, .row {
+width: 100%;
+}
+.row:before, .row:after {
+  display: table;
+  content: "";
+}
+.row:after {
+  clear: both;
+}
+.col1, .col2, .col3 {
+float: left;
+width:40%;
+margin:1%;
+padding:1%;
+}
+.footer {
+position:fixed;
+bottom:0;
+display:block;
+width:100%;
+background-color: rgba(245, 245, 245);
+color: black;
+}
+button {
+bottom:50;
+position:fixed;
+width: 100px;
+padding:8px;
+background-color: #F5F5F5;
+color: #BC8F8F;
+-moz-border-radius: 30px;
+-webkit-border-radius: 30px;
+border-radius: 30px; /* future proofing */
+-khtml-border-radius: 30px; /* for old Konqueror browsers */
+text-align: center;
+vertical-align: middle;
+border: 1px solid transparent;
+font-weight: 900;
+font-size:125%
+
+}

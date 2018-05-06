@@ -1,0 +1,19 @@
+.container{
+	width: 67%;
+	margin: 0 auto;
+}
+.container p{
+	columns:3;
+}
+a:link {
+color: #4682B4
+}
+a:hover {
+color: #8B0000
+}
+a:active {
+color: #4B0082
+}
+a:visited {
+color: #191970
+}
